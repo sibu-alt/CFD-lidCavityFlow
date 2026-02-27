@@ -7,8 +7,8 @@ It provides a controlled environment to test discretization schemes, turbulence 
 ### Equations
 The governing equations are the incompressible Navier-Stokes equations along with the continuity equation:
 
-Continuity:
+The continuity equation ensures there is no incompressibility where there is no density change and no sources of mass
 
 $$
-\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
 $$
