@@ -12,3 +12,10 @@ The continuity equation ensures there is no incompressibility where there is no 
 $$
 \nabla \cdot \mathbf{u} = 0
 $$
+
+The Navier-Stokes equation fluid inertia, pressure gradient and viscous diffusion
+
+$$
+\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} = -\frac{1}{\rho}\nabla p + \nu \nabla^2 \mathbf{u}
+$$
+
