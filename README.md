@@ -6,7 +6,6 @@ It provides a controlled environment to test discretization schemes, turbulence 
 
 ### Equations
 The governing equations are the incompressible Navier-Stokes equations along with the continuity equation:
+
 Continuity:
-$$
-∇⋅𝑢 = 0
-$$
+
