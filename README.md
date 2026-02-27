@@ -10,5 +10,5 @@ The governing equations are the incompressible Navier-Stokes equations along wit
 The continuity equation ensures there is no incompressibility where there is no density change and no sources of mass
 
 $$
-\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0
+\nabla \cdot \mathbf{u} = 0
 $$
